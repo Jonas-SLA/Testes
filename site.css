@@ -1,0 +1,79 @@
+body
+{
+    color: white; /* Cor do texto */
+    background-color: black; /* Cor do plano de fundo */
+    font-family: Arial, Helvetica, sans-serif; /* Altera as fontes do projeto */
+}
+
+ul
+{
+    display: flex; /* Altera a forma de display */
+    justify-content: space-between; /* Ajusta o espaçamento */
+    list-style-type: none; /* Altera a bolinha da lista */
+    align-items: center; /* Alinha ao centro */
+    padding: 16px; /* Abaixa o texto que está no topo */
+}
+
+a
+{
+    color: white; /* Muda a cor do link de azul para branco */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+header img
+{
+    width: 150px; /* Largura em Pixels */
+    height: 150px; /* Altura em Pixels */
+    border-radius: 50%; /* Para deixar circular */
+    border: 5px solid blue;
+}
+
+.center /* Da classe "center" do html */
+{
+    text-align: center;
+}
+
+footer img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+}
+
+footer a
+{
+    margin: 20px;
+    text-align: center;
+}
+
+footer p
+{
+    margin-top: 2px;
+}
+
+.container
+{
+    padding: 0px 50px;
+}
+
+nav a:hover
+{
+    color: green;
+}
+
+section p
+{
+    margin-bottom: 50px;
+}
+
+h2
+{
+    margin-bottom: 50px;
+}
